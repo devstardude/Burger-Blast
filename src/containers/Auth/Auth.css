@@ -1,0 +1,22 @@
+.Auth {
+    font-family: 'Reem Kufi', sans-serif;
+    background-color: #f7aa38ab;
+    margin: 20vh auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ErrorMessage{
+    color: rgb(109, 15, 15);
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}

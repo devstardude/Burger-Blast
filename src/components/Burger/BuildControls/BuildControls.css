@@ -1,0 +1,76 @@
+.BuildControls {
+    font-family: 'Reem Kufi', sans-serif;
+    width: 100%;
+    background-color: #cf8f2e;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px 0 0 0;
+    height: 98vh;
+}
+
+.BuildTab{
+    margin-top: 18%;
+    text-align: center;
+    flex-flow: column;
+    align-items: center;
+    transform: scale(1.2);
+}
+
+.OrderButton {
+    margin-top: 10%!important;
+    background-color: #ebb812!important;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px!important;
+    border: 1px solid #966909!important;
+    color: #553a00!important;
+    font-family: inherit;
+    font-size: 1.1em!important;
+    font-weight: 20%!important;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 2px #966909!important;
+}
+
+
+.OrderButton:disabled {
+    background-color: #C7C6C6!important;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+}
+
+.OrderButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+.Copyright{
+    color: rgb(77, 77, 77);
+    margin-top:2.5rem;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media( min-width:700px){
+    .SpanInfo{
+        display: none;
+    }
+}
+@media( max-width:700px){
+    .BuildTab{
+        margin-top: 12%;
+    }
+}

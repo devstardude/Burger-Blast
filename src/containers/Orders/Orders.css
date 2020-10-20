@@ -1,0 +1,11 @@
+.Orders{
+    font-family: 'Reem Kufi', sans-serif;
+    margin-top: 10%;
+}
+
+@media (max-width:600px){
+    .Orders{
+    margin-top: 20%;
+    }
+}
+

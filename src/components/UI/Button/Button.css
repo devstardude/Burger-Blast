@@ -1,0 +1,43 @@
+.Button {
+  background-color: transparent;
+
+  font-family: "Reem Kufi", sans-serif !important;
+  background-color: #cf8f2e;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+
+  border-radius: 50px 50px 50px 50px;
+  -moz-border-radius: 50px 50px 50px 50px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border: 7px solid #000000;
+
+  border: none;
+  color: white !important;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 5px 30px !important;
+  margin: 10px !important;
+  font-weight: bold;
+}
+
+.Button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.Success {
+  color: #0d1601 !important;
+  background-color: #cf8f2e!important;
+  border-radius: 5px;
+  font-size: 1.2rem!important;
+
+}
+
+.Danger {
+  color: #944317 !important;
+}
