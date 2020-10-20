@@ -26,7 +26,11 @@ class Orders extends Component {
             ));
         }
         return (
-          <div className={classes.Orders}>{orders}</div>
+          <div>
+          <h2 className={classes.OrderHead}>Your Previous Orders</h2>
+          <hr className={classes.Hr}/>
+            <div className={classes.Orders}>{orders}</div>
+          </div>
         );
     }
 }

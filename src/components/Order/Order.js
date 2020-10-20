@@ -18,10 +18,10 @@ const order = (props) => {
         style={{
           textTransform: "capitalize",
           display: "inline-block",
-          margin: "0 8px",
+          margin: "2px 8px",
           border: "1px solid #ccc",
           padding: "5px",
-          borderRadius:"5px"
+          borderRadius: "5px",
         }}
         key={ig.name}
       >
@@ -31,6 +31,7 @@ const order = (props) => {
   });
 
   return (
+
     <div className={classes.Order}>
       <p>Ingredients: {ingredientOutput}</p>
       <p>

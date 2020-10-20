@@ -1,11 +1,25 @@
 .Orders{
     font-family: 'Reem Kufi', sans-serif;
+    margin-top: 2%;
+}
+.OrderHead{
+    font-family: 'Reem Kufi', sans-serif;
     margin-top: 10%;
+    text-align: center;
+}
+.Hr{
+    border-top: 2px solid #e98440;
+    width: 70%;
 }
 
 @media (max-width:600px){
     .Orders{
-    margin-top: 20%;
+    margin-top: 10%;
     }
+    .OrderHead{
+    font-family: 'Reem Kufi', sans-serif;
+    margin-top: 30%;
+    text-align: center;
+}
 }
 
