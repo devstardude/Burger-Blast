@@ -86,8 +86,8 @@ class ContactData extends Component {
         elementType: "select",
         elementConfig: {
           options: [
-            { value: "fastest", displayValue: "Fastest" },
-            { value: "cheapest", displayValue: "Cheapest" },
+            { value: "fastest", displayValue: "Fastest delivery" },
+            { value: "cheapest", displayValue: "Cheapest delivery" },
           ],
         },
         value: "fastest",
@@ -150,7 +150,7 @@ class ContactData extends Component {
       });
     }
     let form = (
-      <form onSubmit={this.orderHandler}>
+      <form id="Form-data" onSubmit={this.orderHandler}>
         {formElementsArray.map((formElement) => (
           <Input
             key={formElement.id}
