@@ -30,6 +30,7 @@ During the development of this app, I strengthened previous knowledge and  Learn
 - Axios API Calls
 - Firebase integration for Realtime Database
 - Firestore Sign-in with Email/password
+- Using Material UI Components
 
 
 ### ⚙️ Technology Stack
@@ -37,6 +38,7 @@ During the development of this app, I strengthened previous knowledge and  Learn
 ~ Frontend 
 - React.js - Class based with Lifecycles
 - Html, Css, Javascript
+- Material UI
 
 ~ Database
 - Firebase Realtime Database
