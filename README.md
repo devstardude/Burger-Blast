@@ -1,6 +1,6 @@
 # 🍔 Burger Blast
-<p align="center">
-  <img width="460" height="300" src="https://i.ibb.co/frvJLvf/burger.png">
+<p align="left">
+  <img width="70%" src="https://i.ibb.co/frvJLvf/burger.png">
 </p>
 
 ### 🌟 Introduction 
