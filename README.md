@@ -8,7 +8,7 @@
 <strong>Burger Blast</strong> in an Amazing app with not just Beautiful UI, but with Amazing Features too.<br/>
 This is a React, Redux, and Firebase Project to <strong>make Delicious Burger interactively</strong> and submit your order details to the server.
 
-### 🛍️ How Does It Work
+### 🍔 How Does It Work
 ---
 Just Sign-Up/Sign-In with your Email and start building Delicious Burger with Live Preview.
 After adding items, fill the contact-details form and submit it to the server
