@@ -37,6 +37,7 @@ During the development of this app, I strengthened previous knowledge and  Learn
 ---
 ~ Frontend 
 - React.js - Class based with Lifecycles
+- Redux
 - Html, Css, Javascript
 - Material UI
 
