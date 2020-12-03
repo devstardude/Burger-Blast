@@ -5,7 +5,7 @@
 
 ### 🌟 Introduction 
 --- 
-Burger Blast in an Amazing app with not just Beautiful UI, but with Amazing Features too.<br/>
+<strong>Burger Blast</strong> in an Amazing app with not just Beautiful UI, but with Amazing Features too.<br/>
 This is a React, Redux, and Firebase Project to <strong>make Delicious Burger interactively</strong> and submit your order details to the server.
 
 ### 🛍️ How Does It Work
@@ -18,7 +18,7 @@ After adding items, fill the contact-details form and submit it to the server
 ### 👨‍💻 Why I Made This App
 ---
 This App provides more interactivity to your Burger Order as you can see what and how much items you have added in your burger.<br/>
-It also shows updated Price with each item added and removed.
+It also shows updated Price with each item added and removed.<br/>
 I Believe this app has a lot of Potential and I will try to Update it with More Features.
 
 ### 📚 What I Learned while making this App
